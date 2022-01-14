@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        
+        <!--========== CSS SLICK ==========-->
+        <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>
+        
+        <title>Responsive website sneakers</title>
+    </head>
+    <body>
+        
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                <a href="#" class="nav__logo">Nindhia Store®</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Quality</a></li>
+                        <li class="nav__item"><a href="#products" class="nav__link">Product</a></li>
+                        <li class="nav__item"><a href="#size" class="nav__link">Size Chart</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+
+                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>              
+       
+                <div class="nav__shop">
+                    <a href="#" class="nav__icon">
+                        <i class='bx bx-shopping-bag'></i>
+                        <span>1</span>
+                    </a>
+                    
+                    <div class="nav__shop-content">
+                        
+                        <div class="title_shop">
+                            <span>Keranjang Belanja</span>
+                        </div>
+                    
+        
+                        <div class="item">                       
+                            <div class="image_cart">
+                                <div class="image_c">
+                                    <img src="assets/img/iphone2.png" alt="">
+                                </div>
+                            </div>                       
+                            <div class="description">
+                                <span>Iphone 13 Pro</span>
+                                <span>1 Pcs</span>
+                            </div>                        
+                            <div class="total-price">Rp. 18.000.000</div>
+                            <a href="#" class="delete-item">
+                                <i class='bx bx-x'></i>
+                            </a>
+                        </div>
+                        <div class="total-all">
+                            <span>Total</span>
+                            <span>Rp. 18.000.000</span>
+                        </div>
+                        <div class="btn-viewcard">
+                            <a href="#" class="button-top">View Card</a>
+                        </div>
+                        <div class="btn-checkout">
+                            <a href="#" class="button-top2">Check Out</a>
+                        </div>                        
+                    </div>
+                </div>                 
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <div class="home__container bd-container bd-grid">
+                            <div class="home__data">
+                                <h1 class="home__title">Iphone 13 Pro Max</h1>
+                                <h2 class="home__subtitle">Iphone terbaik pada tahun 2021.</h2>
+                                <a href="#" class="button">Explore Now</a>
+                            </div>
+                            <img src="assets/img/home_1.png" alt="" class="home__img">
+                        </div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="home__container bd-container bd-grid">
+                            <div class="home__data">
+                                <h1 class="home__title">Iphone 12</h1>
+                                <h2 class="home__subtitle">Iphone dengan redesain pertama yang terinspirasi dari iphone 5 series.</h2>
+                                <a href="#" class="button">Explore Now</a>
+                            </div>
+                            <img src="assets/img/home_2.png" alt="" class="home__img">
+                        </div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="home__container bd-container bd-grid">
+                            <div class="home__data">
+                                <h1 class="home__title">Iphone Series</h1>
+                                <h2 class="home__subtitle">Hadir dengan berbagai warna yang indah dan menawan.</h2>
+                                <a href="#" class="button">Explore Now</a>
+                            </div>
+                            <img src="assets/img/home_3.png" alt="" class="home__img">
+                        </div>
+                    </div>
+                        
+                        
+                </div>
+                <br>
+                
+            </section>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dots" onclick="currentSlide(1)"></span>
+                <span class="dots" onclick="currentSlide(2)"></span>
+                <span class="dots" onclick="currentSlide(3)"></span>
+                <span class="dot"></span>
+            </div>
+
+            
+            <!--========== ABOUT ==========-->
+            <section class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial">About us</span>
+                        <h2 class="section-title about__initial">We serves the best <br> iphone series</h2>
+                        <p class="about__description">Iphone series mulai di perkenalkan pada tahun 2007 oleh Steve Jobs, 
+                            seorang pendiri Apple di California, USA.</p>
+                        <a href="#" class="button">Explore history</a>
+                    </div>
+
+                    <img src="assets/img/about1.jpg" alt="" class="about__img">
+                </div>
+            </section>
+
+
+            <!--========== SERVICES ==========-->
+            <section class="services section bd-container" id="services">
+                <span class="section-subtitle">Offering</span>
+                <h2 class="section-title">Our amazing quality</h2>
+
+                <div class="services__container  bd-grid">
+                    <div class="services__content">
+                        <img src="assets/img/kamera.png" alt="" class="services__img">
+                        <h3 class="services__title">kamera</h3>
+                        <p class="services__description">Menggunakan material yang terbaik dengan kualitas kamera terbaik.</p>
+                    </div>
+
+                    <div class="services__content">
+                        <img src="assets/img/layar.png" alt="" class="services__img">
+                        <h3 class="services__title">Notch</h3>
+                        <p class="services__description">Teknologi Notch yang rapi dan canggih menjadikan iphone series menjadi lebih elegan dan mewah.</p>
+                    </div>
+
+                    <div class="services__content">
+                        <img src="assets/img/layar2.png" alt="" class="services__img">
+                        <h3 class="services__title">Layar</h3>
+                        <p class="services__description">Dengan mengusung layar beresolusi tinggi dan jernih yang memanjakan mata.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== PRODUCTS ==========-->
+            <section class="products section bd-container" id="products">
+                <span class="section-subtitle">Special</span>
+                <h2 class="section-title">PRODUCTS of the week</h2>
+
+                <div class="products__container bd-grid logo-slider slick_two">
+                    
+                    <div class="products__content">
+                        <img src="assets/img/iphone1.png" alt="" class="products__img">
+                        <h3 class="products__name">Iphone 13</h3>
+                        <span class="products__detail">Pink</span><br>
+                        <span class="products__preci">Rp. 15.000.000,-</span>
+                        <a href="product.html" class="button products__button_detail">Detail Product</i></a>
+                        <a href="product.html" class="button products__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="products__content">
+                        <img src="assets/img/iphone2.png" alt="" class="products__img" >
+                        <h3 class="products__name">Iphone 13 Pro</h3>
+                        <span class="products__detail">Sierra Blue</span><br>
+                        <span class="products__preci">Rp. 18.000.000,-</span>
+                        <a href="product.html" class="button products__button_detail">Detail Product</i></a>
+                        <a href="product.html" class="button products__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="products__content">
+                        <img src="assets/img/iphone3.png" alt="" class="products__img">
+                        <h3 class="products__name">Iphone 12 Pro Max</h3>
+                        <span class="products__detail">Pacific Blue</span><br>
+                        <span class="products__preci">Rp. 17.500.000,-</span>
+                        <a href="product.html" class="button products__button_detail">Detail Product</i></a>
+                        <a href="product.html" class="button products__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="products__content">
+                        <img src="assets/img/iphone4.png" alt="" class="products__img">
+                        <h3 class="products__name">Iphone 13 Mini</h3>
+                        <span class="products__detail">Sierra Blue</span><br>
+                        <span class="products__preci">Rp. 13.000.000,-</span>
+                        <a href="product.html" class="button products__button_detail">Detail Product</i></a>
+                        <a href="product.html" class="button products__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SIZE CHART =======-->
+            <section class="size section bd-container" id="size">
+                <div class="size__container bd-grid">
+                    <div class="size__data">
+                        <span class="section-subtitle size__initial">Size Chart</span>
+                        <h2 class="section-title size__initial">Find Your Size</h2>
+                        <p class="size__description">Silakan luangkan waktu Anda sejenak untuk mengamati size chart kami.
+                            Ini akan membantu Anda mengetahui ukuran yang sesuai.</p>
+                    </div>
+                    <img src="assets/img/size.png" alt="" class="size__img">
+                </div>
+            </section> 
+
+            <!--========== CONTACT US ==========-->
+            <section class="contact section bd-container" id="contact">
+                <div class="contact__container bd-grid">
+                    <div class="contact__data">
+                        <span class="section-subtitle contact__initial">Let's talk</span>
+                        <h2 class="section-title contact__initial">Contact us</h2>
+                        <p class="contact__description">Jika Anda ingin membeli Iphone Series di toko kami, hubungi kami dan kami akan segera melayani Anda dengan layanan 24/7.</p>
+                    </div>
+
+                    <div class="contact__button">
+                        <a href="#" class="button">Contact us now</a>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">Nindhia Store®</a>
+                    <span class="footer__description">Store</span>
+                    <div>
+                        <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Services</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Shipping And Returns</a></li>
+                        <li><a href="#" class="footer__link">Measurement Guide</a></li>
+                        <li><a href="#" class="footer__link">Size Conversion Chart</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Information</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Event</a></li>
+                        <li><a href="#" class="footer__link">Contact us</a></li>
+                        <li><a href="#" class="footer__link">Privacy policy</a></li>
+                        <li><a href="#" class="footer__link">Terms of services</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Address</h3>
+                    <ul>
+                        <li>Semarang - Indonesia</li>
+                        <li>Phone : +62-xx xxxxxxxxx</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2022 Adn. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+        
+                       
+        <!--========== JS SLICK ==========-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script  src="assets/js/slick.js"></script>
+        <script  src="assets/js/slick.min.js"></script>
+
+        <script>
+            $('.slick_two').slick({
+                dots: true,
+                arrows: true,                
+                infiniite: true,
+                autoplay: true,
+                speed: 2000,
+                autoplaySpeed: 2000,
+                responsive: [
+                    {
+                    breakpoint: 5000,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                    },
+                    {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                    }
+                ]
+            });
+        </script>
+     
+    </body>
+</html>
